@@ -1,7 +1,7 @@
 {
   "name": "sarazanmai",
   "version": "1.0.0",
-  "description": "For practice webpack.",
+  "description": "sarazainmai is ED animation use animejs.",
   "main": "./src/index.js",
   "repository": "sarazanmai",
   "private": true,

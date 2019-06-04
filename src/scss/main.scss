@@ -1,0 +1,38 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #37474f;
+
+    .content {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+        border: solid 3px red;
+
+        .rect {
+            width: 250px;
+            height: 250px;
+            position: absolute;
+            top: 70%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(45deg);
+            border: solid 3px white;
+        }
+    }
+}
+
+
