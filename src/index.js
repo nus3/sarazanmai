@@ -3,4 +3,6 @@
 import './scss/main.scss'
 
 // modules
-import './modules/animation'
+import * as sarazanmai from './modules/animation'
+
+window.sarazanmai = sarazanmai

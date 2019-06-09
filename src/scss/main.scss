@@ -55,8 +55,18 @@ $lineColor: #C0E6ED;
             background-color: $lineColor;
             filter: drop-shadow(0 0 1px $lineColor);
             position: absolute;
-            top: 610px;
-            left: 200px;
+            top: 601px;
+            z-index: 3;
+        }
+
+        .line-01 {
+            left: 100px;
+        }
+        .line-02 {
+            left: 297px;
+        }
+        .line-03 {
+            left: 494px;
         }
 
         .child-rect {
@@ -64,8 +74,17 @@ $lineColor: #C0E6ED;
             height: 5px;
             position: absolute;
             top: 420px;
-            left: 200px;
             transform: rotate(45deg);
+        }
+
+        .child-rect-01 {
+            left: 100px;
+        }
+        .child-rect-02 {
+            left: 297px;
+        }
+        .child-rect-03 {
+            left: 494px;
         }
 
         .child-rect-white {
@@ -77,6 +96,111 @@ $lineColor: #C0E6ED;
             background-color: $bgColor;
             opacity: 0;
             z-index: 2;
+        }
+
+        .rect-02 {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            top: 398px;
+            background: $lineColor;
+            opacity: 0;
+            z-index: 2;
+            transform: rotate(45deg);
+        }
+
+        .rect-02-01 {
+            left: 78px;
+        }
+        .rect-02-02 {
+            left: 275px;
+        }
+        .rect-02-03 {
+            left: 472px;
+        }
+
+        .wrapper {
+            transform: rotate(110deg);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+            .rect-02-line {
+                width: 2px;
+                height: 2px;
+                background-color: $lineColor;
+                position: absolute;
+                filter: drop-shadow(0 0 1px $lineColor);
+                opacity: 0;
+                z-index: 4;
+            }
+            .rect-02-line-01 {
+                top: 441px;
+                right: 114px;
+            }
+            .rect-02-line-02 {
+                top: 256px;
+                right: 182px;
+            }
+            .rect-02-line-03 {
+                top: 70px;
+                right: 249px;
+            }
+
+            .rect-lines {
+                width: 1px;
+                height: 1px;
+                background-color: $lineColor;
+                position: absolute;
+                filter: drop-shadow(0 0 1px $lineColor);
+                opacity: 0;
+                z-index: 4;
+            }
+            .rect-lines-01 {
+                top: 300px;
+                right: 300px;
+            }
+            .rect-lines-02 {
+                top: 200px;
+                right: 500px;
+                background: rgba($lineColor, 0.4);
+            }
+            .rect-lines-03 {
+                top: 100px;
+                right: 100px;
+                background: rgba($lineColor, 0.4);
+            }
+            .rect-lines-04 {
+                left: 100px;
+                bottom: 100px;
+            }
+            .rect-lines-05 {
+                right: 100px;
+                bottom: 200px;
+                background: rgba($lineColor, 0.4);
+            }
+            .rect-lines-06 {
+                left: 250px;
+                bottom: 200px;
+            }
+            .rect-lines-07 {
+                left: 250px;
+                bottom: 50px;
+                background: rgba($lineColor, 0.4);
+            }
+            .rect-lines-08 {
+                left: 250px;
+                top: 50px;
+            }
+            .rect-lines-09 {
+                left: 350px;
+                top: 180px;
+            }
+            .rect-lines-10 {
+                left: 600px;
+                bottom: 180px;
+                background: rgba($lineColor, 0.4);
+            }
         }
     }
 }
